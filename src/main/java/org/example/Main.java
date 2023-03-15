@@ -19,7 +19,7 @@ public class Main {
         boolean isValid = mernis.validation(user1.getFirstName(), user1.getLastName(), user1.getBirthDate(), user1.getNationalityId());
         if(isValid){
             System.out.println("User validated");
-        }else{
+        } else{
             System.out.println("User cannot validated");
         }
 
@@ -35,14 +35,6 @@ public class Main {
         games.setPrice(60);
         gamesManager.add(games);
         gamesManager.sell(games, user1, promotions);
-
-
-
-
-
-
-
-
 
     }
 }
